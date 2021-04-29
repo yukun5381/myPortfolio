@@ -8,7 +8,9 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a {
+            color: white;
         }
         .title-background {
             background-color: #ff0027;
@@ -22,8 +24,12 @@
             color: white;
             text-align: center;
         }
+        .content {
+            padding: 1em;
+        }
         .subtitle {
             font-size: 32px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .detail {
             height: 5em;
@@ -31,7 +37,7 @@
             margin: 1em auto;
         }
         .profile, .skill, .works, .contact {
-            height: 10em;
+            height: 15em;
             padding: 1em;
             border-radius: 1em;
             max-width: 600px;
@@ -58,40 +64,49 @@
         <h1 class="title">my portfolio</h1>
     </div>
 
-    <div class="detail">
-        <p>ポートフォリオです。絶賛更新中！</p>
+    <div class="content">
+
+        <div class="detail">
+            <p>ポートフォリオです。絶賛更新中！</p>
+        </div>
+    
+    
+        <div class="profile">
+            <h1 class="subtitle">profile</h1>
+            <ul>
+                <li>名前：さとゆう</li>
+                <li>所属：早稲田大学（2018〜2022）</li>
+                <li>2022年4月よりヤフーのエンジニアとして勤務予定</li>
+            </ul>
+        </div>
+    
+        <div class="skill">
+            <h1 class="subtitle">skill</h1>
+            <ul>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>……いや、少なっ！</li>
+            </ul>
+        </div>
+    
+        <div class="works">
+            <h1 class="subtitle">works</h1>
+            <ul>
+                <li><a href="http://ettodakara.php.xdomain.jp/recruit/user/main/">就活管理アプリ</a></li>
+                <li>パスワード生成サイト</li>
+                <li>日程調整</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h1 class="subtitle">contact</h1>
+            <ul>
+                <li>準備中</li>
+            </ul>
+        </div>
+
     </div>
 
-
-    <div class="profile">
-        <h1 class="subtitle">profile</h1>
-        <ul>
-            <li>名前：さとゆう</li>
-            <li>所属：早稲田大学（2018〜2022）</li>
-            <li>2022年4月よりヤフーで勤務予定</li>
-        </ul>
-    </div>
-
-    <div class="skill">
-        <h1 class="subtitle">skill</h1>
-        <ul>
-            <li>準備中</li>
-            <li>準備中</li>
-            <li>準備中</li>
-        </ul>
-    </div>
-
-    <div class="works">
-        <h1 class="subtitle">works</h1>
-        <ul>
-            <li>準備中</li>
-            <li>準備中</li>
-            <li>準備中</li>
-        </ul>
-    </div>
-    <div class="contact">
-        <h1 class="subtitle">contact</h1>
-        <p>準備中</p>
-    </div>
 </body>
 </html>
