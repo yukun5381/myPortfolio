@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #ccc;
 }
 a {
   color: white;
@@ -21,7 +22,7 @@ a {
 .photo {
   display: block;
   margin: 0 auto;
-  height: 300px;
+  width: 300px;
   border-radius: 5px;
 }
 h1 {
@@ -44,7 +45,7 @@ h1 {
 .future-skill,
 .works,
 .contact {
-  height: 15em;
+  min-height: 20em;
   padding: 1em;
   border: 2px solid #633;
   border-radius: 1em;
